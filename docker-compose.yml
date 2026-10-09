@@ -1,0 +1,10 @@
+services:
+  darajat:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      SUPER_PASS: ${SUPER_PASS:?اكتب SUPER_PASS في ملف .env}
+    volumes:
+      - ./data:/data

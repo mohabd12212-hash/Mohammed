@@ -1,0 +1,22 @@
+{
+  "name": "darajat",
+  "version": "1.0.0",
+  "description": "نظام درجات المدارس",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/start.js",
+    "seed": "node server/seed.js",
+    "test": "node --test test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "xlsx": "^0.18.5"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  }
+}
